@@ -1,4 +1,4 @@
-﻿using Newtonsoft.Json;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -9,7 +9,6 @@ using System.Web;
 namespace nu1014.Models
 {
     public class Member
-
     {
         [Key]
         [Display(Name = "編號")]

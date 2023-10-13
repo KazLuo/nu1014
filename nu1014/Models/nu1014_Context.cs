@@ -16,7 +16,6 @@ namespace nu1014.Models
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
         }
-
         public virtual DbSet<Member> Members { get; set; }
     }
 }
